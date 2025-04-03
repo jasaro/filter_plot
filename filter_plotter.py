@@ -51,7 +51,7 @@ def plot_ecg(original_data, filtered_data, fs):
 
 # Example usage
 fs = 250  # Sampling rate of 250Hz
-file_path = '/Users/jasaro/Documents/Python_files/CPEG398/ecg_data_no_adhesive.csv'  
+file_path = 'INSERT_FILE_PATH'  
 
 # Load and filter data
 ecg_data = load_ecg_data(file_path)
